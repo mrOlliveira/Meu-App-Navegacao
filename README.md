@@ -45,8 +45,8 @@ Este é um aplicativo React Native simples com foco em **navegação entre telas
 ### 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
-cd seu-repositorio
+git clone https://github.com/mrOlliveira/Meu-App-Navegacao
+cd Meu-App-Navegacao
 ```
 
 ---
@@ -58,28 +58,11 @@ npm install
 ```
 
 ---
-
-### 3. Instale os pacotes adicionais:
-
-```bash
-npm install @react-navigation/native @react-navigation/stack
-npm install react-native-screens react-native-safe-area-context
-npm install @react-native-async-storage/async-storage
-npm install expo-linear-gradient
-```
-
-**Obs:** Se você usa Expo (recomendado), não precisa fazer link manual de pacotes nativos.
-
----
-
-### 4. Execute o projeto:
+### 3. Execute o projeto:
 
 ```bash
-npm start
+npx expo start --tunnel
 ```
-
-Depois, use o app no seu celular com o Expo Go ou em um emulador.
-
 ---
 
 ## ✅ Estrutura de Telas
